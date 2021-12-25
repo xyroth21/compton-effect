@@ -1,0 +1,26 @@
+{
+  "name": "compton-effect",
+  "version": "1.0.0",
+  "description": "Simulation of the compton effect",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyroth21/compton-effect.git"
+  },
+  "author": "xyroth21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xyroth21/compton-effect/issues"
+  },
+  "homepage": "https://github.com/xyroth21/compton-effect#readme",
+  "dependencies": {
+    "three": "^0.136.0"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
