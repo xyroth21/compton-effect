@@ -12,7 +12,7 @@ document.body.appendChild( renderer.domElement );
 //controls.update() must be called after any manual changes to the camera's transform
 //camera.position.set( 0, 20, 100 );
 //controls.update();
-const controls = new OrbitControls( camera, renderer.domElement );
+
 const geometry = new THREE.BoxGeometry();
 
  const material = new THREE.MeshNormalMaterial(  );

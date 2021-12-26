@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serve"
+    "start": "serve",
+    "transpile": "tsc js/app.ts"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "three": "^0.136.0"
   },
   "devDependencies": {
-    "serve": "^13.0.2"
+    "serve": "^13.0.2",
+    "typescript": "^4.5.4"
   }
 }
